@@ -18,7 +18,6 @@ public class checkSelenide {
         open("https://github.com/selenide/selenide");
         //Перейдите в раздел Wiki проекта
         $("[id=wiki-tab]").click();
-        //$$("[id=wiki-tab]")
         //Убедитесь, что в списке страниц (Pages) есть страница SoftAssertions
         $(".js-wiki-more-pages-link").click();
         sleep(1000);
